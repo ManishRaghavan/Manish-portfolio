@@ -1,0 +1,62 @@
+.Box{
+    position: relative;
+    margin-top: 100px;
+    height: 500px;
+    width: 500px;
+    margin-left: 150px;
+    align-content: center;
+    justify-content: left;
+    float: left;
+}
+.Box>h1{
+  
+    font-size: 45px;
+    font-weight: 700;
+    border-bottom: 10px groove;
+}
+.span{
+    color: #089eca;
+    font-weight: 1000;
+    font-size: 20px;
+}   
+.para{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2;
+    color: #212529;
+}
+.Box>img{
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.button{
+    display: block;
+    align-items: center;
+    color: azure;
+    cursor: pointer;
+    background-color: #089eca;
+    text-decoration: none;
+    padding: 15px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 500px) {
+    .Box{
+        width: 300px;
+        margin-left: 30px;
+        margin-right: 0;
+    }.Box>img{
+        height: 250px;
+        width: 250px;
+        margin-left: 20px;
+    }.para{
+        font-size: 15px
+    }.button{
+        margin-left: 50px;
+    }
+}

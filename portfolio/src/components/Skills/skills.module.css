@@ -1,0 +1,109 @@
+.heading{
+    text-align: center;
+    border-bottom: 20px groove;
+    border-radius: 20px;
+    border-color: #089eca;
+}
+.techBox{
+    position: relative;
+    margin-top: 100px;
+    height: fit-content;
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    align-content: center;
+    justify-content: left;
+    float: left;
+
+}
+
+.skillBox{
+    height: 90px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    justify-content: left;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    padding: 33px;
+    float: left;
+    background-color: #089eca;
+}
+
+.name{
+    margin-top: 5px;
+    padding-top:10px ;
+    margin-left: 120px;
+    font-size: 27px;
+    font-weight: 700;
+}
+.span{
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.insideBox{
+    height: 100%;
+    width: 100%;
+}
+
+.per1{
+    height: 12px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 120px;
+    border-radius: 15px;
+    background-color: #e9ecef;
+}
+.per2{
+    height: 100%;
+    border-radius: 15px;
+    background-color: #3abce4;
+        
+}
+
+@media only screen and (max-width: 500px) {
+    .techBox{
+        margin: 0;
+        margin-top: 50px;
+    }.heading{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 26px;
+        border-bottom: 0;
+        border-radius: 0;
+        border-color: none;
+    }.skillBox{
+        margin-left: 20px;
+        height: 65px;
+        width: 300px;
+    }.name{
+        font-size: 15px;
+        margin-left: 75px;
+    }.logo{
+        font-size: 15px;
+        padding: 25px;
+    }.per1{
+        height: 8px;
+        width: 210px;
+        margin-top: 10px;
+        margin-left: 75px;
+        border-radius: 15px;
+        background-color: #e9ecef;
+    }.span{
+        margin-top: 0;
+        margin-right: 15px;
+    }
+    
+    
+}

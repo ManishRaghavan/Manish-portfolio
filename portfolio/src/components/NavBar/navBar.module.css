@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Name{
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.Name:hover{
+    color: #089eca;
+    transition: 0.4s;
+}
+.MainBox{
+    height: 70px;
+    width: 98%;
+    margin-bottom: 50px;
+    position: fixed;
+    background-color: #ffffff;
+    padding: 0 5px 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+    color: #212529;
+}
+
+.NavBox{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    color: #212529;
+}
+.NavBox>h3{
+    padding: 5%;
+    cursor: pointer;
+}
+.NavBox>h3:hover{
+    color: #089eca;
+    transition: 0.4s;
+}
+.SideBox{
+    position: relative;
+    margin-top: 50px;
+    height: 700px;
+    width: 370px;
+    align-items: center;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    background-color: #ffffff;
+    z-index: 5;
+}
+.SideBoxActive{
+    display: block;
+    align-items: center;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.SideBox>h3{
+    font-size: 25px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.SideBox>h3:hover{
+    color: #089eca;
+    transition: 0.4s;
+}
+.menuIcon{
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .NavBox>h3{
+        display: none;
+    }.NavBox{
+        margin-left: 75%;
+    }.Name{
+        font-size: 25px;
+    }.menuIcon{
+        display: block;
+        cursor: pointer;
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .NavBox{
+        margin-left: 50%;
+    }
+}
+
+
+
