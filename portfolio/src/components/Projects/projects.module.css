@@ -1,0 +1,95 @@
+.content{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.box{
+    height: 600px;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ 
+}
+.imgBox{
+    height: 150px;
+    width: 100%;
+   
+    background-color: aqua;
+}
+.imgBox>img{
+    border-radius: 5px 5px 0 0 ;
+    height: 100%;
+    width: 100%;
+}
+.Heading{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #089eca;
+    border-bottom:3px groove ;
+    border-color: #089eca;
+    width: fit-content;
+}
+.HeadingSpan{
+    padding-left: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+.para{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    line-height: 30px;
+}
+.techStack{
+    height: 50px;
+    width: 50%;
+    margin-left: 60px;
+    margin-top: 15px;
+    display: flex;
+}
+.logo{
+    font-size: 40px;
+    margin-left: 15px;
+    color: #1c6277;
+}
+.buttonBox{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+.btn{
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    background-color: #42bbe0;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 700;
+    float: left;
+    margin-left: 38px;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition:  0.2s;
+}
+#disable{
+    background-color: gray;
+    transform: scale(1);
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.btnLogo{
+    margin-right: 5px;
+}

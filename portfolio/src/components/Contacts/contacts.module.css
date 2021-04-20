@@ -1,0 +1,130 @@
+.box1{
+    position: relative;
+    margin-top: 100px;
+    height: 500px;
+    width: 500px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    align-content: center;
+    justify-content: left;
+    float: left;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.word{
+    font-size: 16px;
+    margin-left: 20px;
+    padding-top: 2px;
+    font-weight: bold;
+}
+.logo{
+    color: #089eca;
+    font-size: 25px;
+}
+.ContactBox{
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.socialBox{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #089eca;
+    cursor: pointer;
+}
+.circle:hover{
+    background-color: #089eca;
+    color: #fff;
+}
+.SocialLogo{
+    font-size: 25px;
+    padding: 18px;
+    color: #089eca;
+}
+.SocialLogo:hover{
+    color: #fff;
+}
+
+.box2{
+    position: relative;
+    margin-top: 100px;
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    align-content: center;
+    justify-content: left;
+    float: left;
+}
+
+.input{
+    height: 40px;
+    width: 60%;
+    margin-top: 35px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline: 0;
+
+}
+input{
+    padding-left: 20px;
+}
+::placeholder{
+    color: #999;
+}
+textarea{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.input2{
+    height: 150px;
+    width: 61%;
+    margin-top: 35px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline: 0;
+}
+.button{
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #089eca;
+    padding: 15px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left:70px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition:  0.2s;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 500px) {
+    .box1{
+        margin-left: 50px;
+        width: 300px;
+        height: 300px;
+    }.box2{
+        margin-left: 50px;
+        width: 300px;
+    }.circle{
+        margin-top: 10px;
+    }.button{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+}
