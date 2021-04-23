@@ -4,12 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faMapMarkedAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import {db} from "../../firebase/firebase"
+import {motion} from "framer-motion"
 
 export const Contacts = () => {
 
     const[form,setform] = React.useState({
         Name:"",
-        Email:"",
+        Email:"", 
         Message:""
     })
     
@@ -50,7 +51,7 @@ export const Contacts = () => {
 
 
     return (
-        <div>
+        <motion.div  initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
             <div className={styles.box1}>
                 <p className={styles.heading}>If you want to talk to me,<br/>
                 You can find me at:</p>
@@ -78,6 +79,6 @@ export const Contacts = () => {
                <p style={{paddingLeft:"10px"}}>Send Message</p>
             </div>
             </div>
-        </div>
+        </motion.div>
     )
 }

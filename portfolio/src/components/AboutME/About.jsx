@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./about.module.css";
+import {motion} from "framer-motion"
 
 export const About = () => {
-  return ( 
-    <div>
+  return (  
+    <motion.div
+    initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
       <div className={styles.Box}>
         <h1>About Me</h1>
         <p className={styles.para}>
@@ -12,7 +14,7 @@ export const About = () => {
           School.This drived passion for coding. I joined Masai School-Bangalore
           to qualify as a full stack developer. I write code in{" "}
           <span className={styles.span}>
-            Html, Css, React, Express, MongoDB
+            HTML, CSS, React, Express, MongoDB
           </span>
           . I'm basically interested in frontend, datastructures, and
           algorithms. I'm hoping to build challenging projects, open to work remotely
@@ -24,6 +26,6 @@ export const About = () => {
       <div className={styles.Box}>
           <img src="code2.png" alt="pic"/>
       </div>
-    </div>
+    </motion.div>
   );
 };

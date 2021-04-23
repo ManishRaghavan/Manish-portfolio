@@ -1,6 +1,6 @@
 .ContentBox{
     position: relative;
-    margin-top: 100px;
+    margin-top: 0px;
     height: 500px;
     width: 500px;
     margin-left: 150px;
@@ -21,6 +21,15 @@
     font-weight: 700;
 }
 
+@media only screen and (max-width: 1296px){
+    .ContentBox>img{
+        margin-left: 10px;
+        height: 400px;
+        width: 400px;
+    }.ContentBox{
+        margin-left: 100px;
+    }
+}
 
 @media only screen and (max-width: 500px) {
     .C_1{

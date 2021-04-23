@@ -3,8 +3,8 @@ body {
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(243, 243, 243);
-  transform: translate3d(0px, 0px, 0px);
+  /* background-color: rgb(243, 243, 243);
+  transform: translate3d(0px, 0px, 0px); */
 }
 
 code {

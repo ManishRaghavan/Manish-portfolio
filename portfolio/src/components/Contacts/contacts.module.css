@@ -1,6 +1,6 @@
 .box1{
     position: relative;
-    margin-top: 100px;
+    margin-top: 0px;
     height: 500px;
     width: 500px;
     margin-left: 250px;
@@ -58,7 +58,7 @@
 
 .box2{
     position: relative;
-    margin-top: 100px;
+    margin-top: 0px;
     height: 500px;
     width: 500px;
     margin-left: 100px;
@@ -113,13 +113,22 @@ textarea{
     transform: scale(1.1);
 }
 
+@media only screen and (max-width: 1296px) {
+    .box1{
+        margin-left: 200px;
+    }.box2{
+        margin-left: 50px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .box1{
         margin-left: 50px;
         width: 300px;
         height: 300px;
     }.box2{
-        margin-left: 50px;
+        margin-left: 70px;
+        margin-top: 150px;
         width: 300px;
     }.circle{
         margin-top: 10px;
