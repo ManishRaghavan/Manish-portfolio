@@ -11,8 +11,8 @@ export const About = () => {
         <p className={styles.para}>
           The journey started when I was coding a simple{" "}
           <span className={styles.span}>"Hello World"</span> program in my High
-          School.This drived passion for coding. I joined Masai School-Bangalore
-          to qualify as a full stack developer. I write code in{" "}
+          School.This drived passion for coding. I joined Masai School-Bengaluru
+          to qualify as a Full web stack developer. I write code in{" "}
           <span className={styles.span}>
             HTML, CSS, React, Express, MongoDB
           </span>
@@ -21,7 +21,7 @@ export const About = () => {
           for the projects and passionate to grow as a{" "}
           <span className={styles.span}>Software Developer</span>.{" "}
         </p>
-        <a className={styles.button} href="Manish_R R_Resume.pdf" download>Download Resume</a>
+        <a className={styles.button} href="Manish_R_R_Resume.pdf" download>Download Resume</a>
       </div>
       <div className={styles.Box}>
           <img src="code2.png" alt="pic"/>

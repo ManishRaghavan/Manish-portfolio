@@ -12,14 +12,15 @@ export const Home = () => {
             <h1 className={styles.C_2}>Im Manish R R,</h1><br/>
             <h1>
             <Typical
-            steps={["I'm a full Stack Developer.", 1000, "I'm a Commited Person.", 1500,"I'm a Passionate Coder.",2000]}
+            steps={["I'm a Full Web Stack Developer.", 1000, "I'm a Commited Person.", 1500,"I'm a Passionate Coder.",2000]}
             loop={Infinity}
             wrapper="p"
             />
             </h1>
             </div>
             <div className={styles.ContentBox}>
-            <img src="code.png" alt="pic"/>
+            <img src="ma.jpg" alt="pic" className={styles.img}/>
+         
             </div>
            
         </motion.div>

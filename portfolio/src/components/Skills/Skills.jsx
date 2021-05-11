@@ -38,7 +38,7 @@ export const Skills = () => {
                         <FontAwesomeIcon icon={item.logo} className={styles.logo} />
                         <div className={styles.insideBox}>
 
-                        <p className={styles.name}>{item.Name} <span className={styles.span}>{`${item.percentage}%`}</span></p>
+                        <p className={styles.name}>{item.Name} </p>
                         <div className={styles.per1}>
                         <div className={styles.per2} style={{width:`${item.percentage}%`}}>
 
@@ -59,7 +59,7 @@ export const Skills = () => {
                         <FontAwesomeIcon icon={item.logo} className={styles.logo} />
                         <div className={styles.insideBox}>
 
-                        <p className={styles.name}>{item.Name} <span className={styles.span}>{`${item.percentage}%`}</span></p>
+                        <p className={styles.name}>{item.Name} </p>
                         <div className={styles.per1}>
                         <div className={styles.per2} style={{width:`${item.percentage}%`}}>
 

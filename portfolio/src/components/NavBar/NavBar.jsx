@@ -35,7 +35,7 @@ export const NavBar = () => {
             <h1 onClick={()=>handleRoute("/")} className={styles.Name}>
             <img  className={styles.hat} src="w2.png" alt="pic"/>Manish</h1>
         </Tilt>
-            <nav className={styles.NavBox}>
+            <nav className={styles.NavBox}> 
             
         <h3 className={active===""?styles.active:null} onClick={()=>handleRoute("/")}> <FontAwesomeIcon className={styles.l} icon={faHome}/>Home</h3>
         <h3 className={active==="about"?styles.active:null} onClick={()=>handleRoute("/about")}><FontAwesomeIcon className={styles.l} icon={faAddressCard}/>About Me</h3>
